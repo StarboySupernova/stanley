@@ -4,6 +4,7 @@ import {
   AuthorSearchResultItem,
   BlogSearchResultItem,
   CategorySearchResultItem,
+  ActivitySearchResultItem,
 } from './SearchResultItem';
 import ParagraphText from '../typography/ParagraphText';
 
@@ -12,6 +13,7 @@ function SearchResult({
   blogsIndexStore,
   categoriesIndexStore,
   authorsIndexStore,
+  activitiesIndexStore,
 }) {
   const blogsResult = useFlexSearch(
     searchQuery,
@@ -28,11 +30,17 @@ function SearchResult({
     JSON.stringify(authorsIndexStore.index),
     authorsIndexStore.store
   );
+  const activitiesResult = useFlexSearch(
+    searchQuery,
+    JSON.stringify(activitiesIndexStore.index),
+    activitiesIndexStore.store
+  );
 
   if (
     blogsResult.length === 0 &&
     categoriesResult.length === 0 &&
-    authorsResult.length === 0
+    authorsResult.length === 0 &&
+    activitiesResult.length === 0
   ) {
     return <ParagraphText>No Result Found.</ParagraphText>;
   }
@@ -41,7 +49,7 @@ function SearchResult({
     <>
       {blogsResult.length > 0 && (
         <>
-          <ParagraphText>Posts</ParagraphText>
+          <ParagraphText>Spotlight</ParagraphText>
           {blogsResult.map((result) => (
             <BlogSearchResultItem key={result.id} blog={result} />
           ))}
@@ -60,6 +68,14 @@ function SearchResult({
           <ParagraphText>Authors</ParagraphText>
           {authorsResult.map((result) => (
             <AuthorSearchResultItem key={result.id} author={result} />
+          ))}
+        </>
+      )}
+      {activitiesResult.length > 0 && (
+        <>
+          <ParagraphText>Activities</ParagraphText>
+          {activitiesResult.map((result) => (
+            <ActivitySearchResultItem key={result.id} activity={result} />
           ))}
         </>
       )}

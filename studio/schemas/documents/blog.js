@@ -55,7 +55,7 @@ export default {
       description: 'Overview',
     },
     {
-      title: 'Service Description',
+      title: 'activity Description',
       name: 'body',
       type: 'richText',
     },

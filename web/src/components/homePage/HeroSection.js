@@ -28,7 +28,7 @@ function HeroSection() {
               power, ensuring you stay unaffected by any stage of load shedding.
               Trust our hardworking staff to keep you connected, always, seven
               days a week, from Sunday to Sunday. Choose us for continuous and
-              reliable service – your gateway to uninterrupted online
+              reliable activity – your gateway to uninterrupted online
               excellence.
             </ParagraphText>
             <ParagraphText>
@@ -36,7 +36,7 @@ function HeroSection() {
               vending machine needs. We specialize in smooth shop-to-shop
               transactions, serving as the central hub for spaza shops in the
               vibrant communities of Midrand, Tembisa and especially Mayibuye.
-              Our dedicated service ensures a hassle-free experience, making it
+              Our dedicated activity ensures a hassle-free experience, making it
               convenient for businesses to manage their vending machine supplies
               effortlessly.
             </ParagraphText>

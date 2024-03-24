@@ -100,14 +100,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-local-search`,
       options: {
-        name: `services`,
+        name: `activities`,
         engine: `flexsearch`,
         engineOptions: {
           tokenize: 'forward',
         },
         query: `
         {
-          allSanityService {
+          allSanityActivity {
             nodes{
               id
               title
@@ -122,7 +122,7 @@ module.exports = {
         index: ['title'],
         store: ['id', 'title', 'slug'],
         normalizer: ({ data }) =>
-          data.allSanityService.nodes.map((node) => ({
+          data.allSanityActivity.nodes.map((node) => ({
             id: node.id,
             title: node.title,
             slug: node.slug,

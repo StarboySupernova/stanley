@@ -6,15 +6,15 @@ exports.createPages = async ({ graphql, actions }) => {
   const singleCategoryTemplate = require.resolve(
     './src/templates/single-category.js'
   );
-  const singleServiceTemplate = require.resolve(
-    './src/templates/single-service.js'
+  const singleActivityTemplate = require.resolve(
+    './src/templates/single-activity.js'
   );
   const blogListTemplate = require.resolve('./src/templates/blog-list.js');
   const categoryListTemplate = require.resolve(
     './src/templates/category-list.js'
   );
-  const serviceListTemplate = require.resolve(
-    './src/templates/service-list.js'
+  const serviceActivityTemplate = require.resolve(
+    './src/templates/activity-list.js'
   );
   const singleAuthorTemplate = require.resolve(
     './src/templates/single-author.js'
@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
-      allSanityService {
+      allSanityActivity {
         nodes {
           id
           slug {
@@ -64,7 +64,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const blogs = result.data.allSanityBlog.nodes;
   const categories = result.data.allSanityCategory.nodes;
   const authors = result.data.allSanityAuthor.nodes;
-  const services = result.data.allSanityService.nodes;
+  const activities = result.data.allSanityActivity.nodes;
 
   // creating single blog pages
   blogs.forEach((blog) => {
@@ -93,12 +93,12 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  //  creating single service pages
-  services.forEach((service) => {
+  //  creating single activity pages
+  activities.forEach((activity) => {
     createPage({
-      path: `/services/${service.slug.current}`,
-      component: singleServiceTemplate,
-      context: { id: service.id },
+      path: `/activities/${activity.slug.current}`,
+      component: singleActivityTemplate,
+      context: { id: activity.id },
     });
   });
 
@@ -147,12 +147,12 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  // service paginated pages
-  const totalServiceListPages = Math.ceil(services.length / 7);
+  // activity paginated pages
+  const totalServiceListPages = Math.ceil(activities.length / 7);
   Array.from({ length: totalServiceListPages }).forEach((_, index) => {
     createPage({
-      path: index === 0 ? `/services` : `/services/${index + 1}`,
-      component: serviceListTemplate,
+      path: index === 0 ? `/activities` : `/activities/${index + 1}`,
+      component: serviceActivityTemplate,
       context: {
         limit: 7,
         offset: index * 7,

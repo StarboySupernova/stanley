@@ -7,7 +7,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import blog from './documents/blog';
 import category from './documents/category';
 import author from './documents/author';
-import service from './documents/service';
+import activity from './documents/activity';
 import spotlight from './documents/spotlight';
 
 // import object
@@ -22,7 +22,7 @@ export default createSchema({
     blog,
     category,
     author,
-    service,
+    activity,
     spotlight,
 
     // object schemas

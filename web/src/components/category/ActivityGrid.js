@@ -1,12 +1,12 @@
 import React from 'react';
 import { CategoryGridStyles } from '../../styles/category/CategoryGridStyles';
-import ServiceItem from './ServiceItem';
+import ActivityItem from './ActivityItem';
 
-function ServiceGrid({ services }) {
+function ActivityGrid({ activities }) {
   return (
     <CategoryGridStyles>
-      {services.map((item) => (
-        <ServiceItem
+      {activities.map((item) => (
+        <ActivityItem
           key={item.id}
           title={item.title}
           description={item._rawDescription}
@@ -17,4 +17,4 @@ function ServiceGrid({ services }) {
   );
 }
 
-export default ServiceGrid;
+export default ActivityGrid;

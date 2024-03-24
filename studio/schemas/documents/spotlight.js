@@ -27,13 +27,13 @@ export default {
       ],
     },
     {
-      name: 'category',
-      title: 'Top Services',
+      name: 'activity',
+      title: 'Top Activities',
       type: 'array',
       of: [
         {
           type: 'reference',
-          to: [{ type: 'service' }],
+          to: [{ type: 'activity' }],
         },
       ],
       validation: (Rule) => [

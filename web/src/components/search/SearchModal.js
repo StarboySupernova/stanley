@@ -23,6 +23,10 @@ const query = graphql`
       publicStoreURL
       publicIndexURL
     }
+    localSearchActivities {
+      publicStoreURL
+      publicIndexURL
+    }
   }
 `;
 
@@ -33,6 +37,7 @@ function Search() {
   const [blogsIndexStore, setBlogsIndexStore] = useState(null);
   const [categoriesIndexStore, setCategoriesIndexStore] = useState(null);
   const [authorsIndexStore, setAuthorsIndexStore] = useState(null);
+  const [activitiesIndexStore, setActivitiesIndexStore] = useState(null);
   const data = useStaticQuery(query);
 
   useEffect(() => {
@@ -59,6 +64,10 @@ function Search() {
     publicStoreURL: authorsPublicStoreURL,
     publicIndexURL: authorsPublicIndexURL,
   } = data.localSearchAuthors;
+  const {
+    publicStoreURL: activitiesPublicStoreURL,
+    publicIndexURL: activitiesPublicIndexURL,
+  } = data.localSearchActivities;
 
   const handleOnFocus = async () => {
     if (blogsIndexStore && categoriesIndexStore && authorsIndexStore) return;
@@ -70,6 +79,8 @@ function Search() {
       { data: categoriesStore },
       { data: authorsIndex },
       { data: authorsStore },
+      { data: activitiesIndex },
+      { data: activitiesStore },
     ] = await Promise.all([
       axios.get(`${blogsPublicIndexURL}`),
       axios.get(`${blogsPublicStoreURL}`),
@@ -77,6 +88,8 @@ function Search() {
       axios.get(`${categoriesPublicStoreURL}`),
       axios.get(`${authorsPublicIndexURL}`),
       axios.get(`${authorsPublicStoreURL}`),
+      axios.get(`${activitiesPublicIndexURL}`),
+      axios.get(`${activitiesPublicStoreURL}`),
     ]);
     /* setting state using data destructured after being received from the Promise */
     setBlogsIndexStore({
@@ -90,6 +103,10 @@ function Search() {
     setAuthorsIndexStore({
       index: authorsIndex,
       store: authorsStore,
+    });
+    setActivitiesIndexStore({
+      index: activitiesIndex,
+      store: activitiesStore,
     });
   };
 
@@ -108,13 +125,15 @@ function Search() {
         {searchQuery &&
           blogsIndexStore &&
           categoriesIndexStore &&
-          authorsIndexStore && (
+          authorsIndexStore &&
+          activitiesIndexStore && (
             <div className="search__result">
               <SearchResult
                 searchQuery={searchQuery}
                 blogsIndexStore={blogsIndexStore}
                 categoriesIndexStore={categoriesIndexStore}
                 authorsIndexStore={authorsIndexStore}
+                activitiesIndexStore={activitiesIndexStore}
               />
             </div>
           )}

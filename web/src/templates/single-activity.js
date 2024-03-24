@@ -8,8 +8,8 @@ import SEO from '../components/seo';
 import { SingleCategoryStyles } from '../styles/category/SingleCategoryStyles';
 
 export const query = graphql`
-  query SingleService($id: String!) {
-    sanityService(id: { eq: $id }) {
+  query SingleActivity($id: String!) {
+    sanityActivity(id: { eq: $id }) {
       title
       _rawDescription
       coverImage {
@@ -22,19 +22,19 @@ export const query = graphql`
   }
 `;
 
-function SingleService({ data }) {
-  const service = data.sanityService;
+function SingleActivity({ data }) {
+  const activity = data.sanityActivity;
 
   return (
     <PageSpace top={80} bottom={100}>
       <SingleCategoryStyles>
         <div className="container">
-          <SEO title={`Gala Groove-${service.title}`} />
-          <PageHeader title={service.title} className="pageHeader">
-            <MyPortableText value={service._rawDescription} />
+          <SEO title={`Gala Groove-${activity.title}`} />
+          <PageHeader title={activity.title} className="pageHeader">
+            <MyPortableText value={activity._rawDescription} />
             <GatsbyImage
-              image={service.coverImage.asset.gatsbyImageData}
-              alt={service.coverImage.alt}
+              image={activity.coverImage.asset.gatsbyImageData}
+              alt={activity.coverImage.alt}
               className="coverImage"
             />
           </PageHeader>
@@ -44,4 +44,4 @@ function SingleService({ data }) {
   );
 }
 
-export default SingleService;
+export default SingleActivity;
