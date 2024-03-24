@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "9ytelrml",
+    "projectId": "9j9zt8xr",
     "dataset": "production"
   },
   "project": {
-    "name": "Stepping Stones"
+    "name": "Gala Groove"
   },
   "plugins": [
     "@sanity/base",

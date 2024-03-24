@@ -24,7 +24,7 @@ export const socialLinks = [
   {
     name: 'whatsapp',
     url: `https://wa.me/27834659008?text=${encodeURIComponent(
-      'I would like to chat to an available Stepping Stones Representative'
+      'I would like to chat to an available Gala Groove Representative'
     )}`,
     icon: <FaWhatsappSquare />,
   },

@@ -12,12 +12,12 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          "Thank you for choosing Stepping Stones Internet Cafe. Your digital
+          "Thank you for choosing Gala Groove Internet Cafe. Your digital
           journey matters to us. Enjoy high-speed internet, computer services,
           and collaborative spaces. Elevate your experience with software
           setups, online courses, and more. Connect, create, and explore with
           us. Your satisfaction is our priority. Connect with us again for a
-          seamless blend of technology and hospitality. Stepping Stones Internet
+          seamless blend of technology and hospitality. Gala Groove Internet
           Cafe – Your pathway to a connected world."
         </ParagraphText>
         <ul className="footer__menuList">
@@ -39,7 +39,7 @@ function Footer() {
           1685 South Africa
         </ParagraphText>
         <ParagraphText className="copyright">
-          © Stepping Stones Group Internet Cafe (PTY) LTD |{' '}
+          © Gala Groove Group Internet Cafe (PTY) LTD |{' '}
           {new Date().getFullYear()}| All rights reserved
         </ParagraphText>
       </div>

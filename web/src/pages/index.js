@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <>
-    <SEO title="Stepping Stones Group" />
+    <SEO title="Gala Groove Group" />
     <HeroSection />
     <div className="container">
       <FeaturedBlogs />

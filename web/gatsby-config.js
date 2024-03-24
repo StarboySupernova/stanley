@@ -3,9 +3,9 @@ const sanityConfig = require('./sanity-config.js');
 
 module.exports = {
   siteMetadata: {
-    title: `Stepping Stones Group`,
+    title: `Gala Groove Group`,
     siteUrl: `https://steppingstonesgroup.netlify.com`,
-    description: `Stepping Stones Group Internet Cafe`,
+    description: `Gala Groove Group Internet Cafe`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
