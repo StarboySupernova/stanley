@@ -37,22 +37,7 @@ function FeaturedBlogs() {
   const spotlightBlogs = data.allSanitySpotlight.nodes[0].blogs;
   return (
     <FeaturedBlogsStyles>
-      <SectionTitle>Our Core Operations</SectionTitle>
-      <ParagraphText className="featuredBlogs__text">
-        We are a money market, we excel in seamless money, electricity, and
-        airtime transfers, both locally and across borders. Trust us to cater to
-        all your transfer needs with efficiency and reliability.
-      </ParagraphText>
-      <SectionTitle>Dedication & Reliability</SectionTitle>
-      <ParagraphText className="featuredBlogs__text">
-        🌐 Connect with Confidence at Stepping Stones Group Internet Cafes! 🌐
-        At Stepping Stones Group, our commitment to your connectivity is
-        unwavering. 💪 Experience the pinnacle of reliability and dedication as
-        we provide a smooth internet experience in a vibrant and comfortable
-        setting. Your productivity and customer satisfaction matters, and we're
-        here to ensure it thrives. Trust the Stepping Stones difference! 🚀💻
-      </ParagraphText>
-      <SectionTitle>Spotlight & Trending Posts</SectionTitle>
+      <SectionTitle>Upcoming Events</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
         Latest from us at Stepping Stones Group
       </ParagraphText>
