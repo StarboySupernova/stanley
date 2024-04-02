@@ -12,14 +12,12 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">Gala Groove Group Internet Cafes</h1>
+            <h1 className="hero__heading">Gala Groove</h1>
             <ParagraphText className="hero__text">
-              Welcome to Gala Groove Group Internet Cafes, your gateway to
-              seamless digital connectivity and productivity. Explore a variety
-              of services designed specifically to cater to your requirements,
-              uniquely created to enhance your online experience whether for
-              work, study, or leisure. Step into a world of convenience and
-              innovation with Gala Groove Group.
+              Experience the magic of youth ingenuity. From intimate gatherings
+              to grand celebrations, we bring your vision to life with
+              creativity, passion and expertise. Let's make memories together.
+              Welcome to Gala Groove
             </ParagraphText>
             <SectionTitle>Our Expertise</SectionTitle>
             <ParagraphText className="hero__text">
