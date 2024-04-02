@@ -4,19 +4,19 @@ export const menu = [
     path: '/',
   },
   {
-    title: 'Posts',
+    title: 'Spotlight',
     path: '/spotlight',
   },
   {
-    title: 'What We Offer',
-    path: '/services',
+    title: 'Activities',
+    path: '/activities',
   },
   {
-    title: 'Categories',
+    title: 'Event Selections',
     path: '/categories',
   },
   {
-    title: 'Our Team',
-    path: '/team',
+    title: 'The Groovers',
+    path: '/groovers',
   },
 ];
