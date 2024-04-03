@@ -27,9 +27,7 @@ function TopCategories() {
   return (
     <TopCategoriesStyles>
       <SectionTitle>Top Activities</SectionTitle>
-      <ParagraphText>
-        Explore Internet Excellence: Your journey begins here with us
-      </ParagraphText>
+      <ParagraphText>Create your ambience - Events done your way</ParagraphText>
       <ActivityGrid activities={activities} />
     </TopCategoriesStyles>
   );

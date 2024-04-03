@@ -39,7 +39,7 @@ function FeaturedBlogs() {
     <FeaturedBlogsStyles>
       <SectionTitle>Upcoming Events</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        Latest from us at Stepping Stones Group
+        Latest from us
       </ParagraphText>
       <BlogGrid blogs={spotlightBlogs} />
     </FeaturedBlogsStyles>
