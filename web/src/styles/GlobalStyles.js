@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
     --grey: var(--gray);
     --white: white;
     --black: black;
+    --gradient: linear-gradient(135deg, #58126a, #f6b2e1);
   }
   html{
     font-size: 10px;
@@ -28,7 +29,7 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1.5;
     width: 100%;
     font-family: 'Inter';
-    background: var(--black-1);
+    background: var(--gradient);
     color: var(--white);
   }
   a{
