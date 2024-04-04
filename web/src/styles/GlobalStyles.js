@@ -20,6 +20,7 @@ const GlobalStyles = createGlobalStyle`
     --white: white;
     --black: black;
     --gradient: linear-gradient(135deg, #000000, #04619F);
+    --light-gradient: linear-gradient(45deg, #f6efa7, #ff0078);
   }
   html{
     font-size: 10px;
