@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     /* background: var(--gradient); */
     background-image: url(${backgroundImage});
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     color: var(--white);
   }
   a{
