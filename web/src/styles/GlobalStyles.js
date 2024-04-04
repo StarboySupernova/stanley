@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     font-family: 'Inter';
     /* background: var(--gradient); */
-    background-image: url('..\images\Background.svg'); 
+    background-image: url('web\src\images\Background.svg');
     background-size: cover;
     color: var(--white);
   }
