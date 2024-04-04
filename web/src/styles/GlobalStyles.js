@@ -29,7 +29,9 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1.5;
     width: 100%;
     font-family: 'Inter';
-    background: var(--gradient);
+    /* background: var(--gradient); */
+    background-image: url('../images/Background.svg');
+    background-size: cover;
     color: var(--white);
   }
   a{
