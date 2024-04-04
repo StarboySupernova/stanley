@@ -64,7 +64,7 @@ export const ContainerDiv = styled.div`
 `;
 
 export const BackgroundBlogDiv = styled.div`
-  background: linear-gradient(180deg, #071314 11.94%, #031717 80.98%);
+  background: linear-gradient(180deg, #034045 11.94%, #031717 80.98%);
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 60px 0px 60px 60px;
