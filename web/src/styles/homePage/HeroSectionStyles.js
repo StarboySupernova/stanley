@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import backgroundImage from '../../images/Wave (1).svg';
 
 export const HeroSectionStyles = styled.div`
   min-height: 80vh;
@@ -19,7 +20,8 @@ export const HeroSectionStyles = styled.div`
       left: 0;
       width: 50%;
       height: 100%;
-      background: linear-gradient(135deg, #000000, #130f40);
+      background-image: url(${backgroundImage});
+      background-size: cover;
       z-index: -1;
     }
     .left {
