@@ -32,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Inter';
     /* background: var(--gradient); */
     background-image: url(${backgroundImage});
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: repeat-y;
     color: var(--white);
   }
