@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import backgroundImage from '../images/stripeelement.svg';
 
 export const FooterStyles = styled.footer`
   padding: 5rem 0 2rem 0;
   text-align: center;
-  background: linear-gradient(45deg, #f6efa7, #ff0078);
+  background-image: url(${backgroundImage});
   .footer__text {
     margin: 0 auto;
     margin-top: 1rem;
