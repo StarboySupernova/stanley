@@ -17,7 +17,9 @@ export const FooterStyles = styled.footer`
       display: inline-block;
       margin: 0 1rem;
       a {
-        color: var(--light-gradient);
+        color: transparent; /* Make the text transparent */
+        text-shadow: 0 0 5px var(--light-gradient); /* Apply gradient as text shadow */
+        /* This will create a shadow behind the text with the gradient, giving the illusion of a gradient text effect. This technique might not work as expected in all situations, and it may not be supported by all browsers.*/
         font-size: 1.6rem;
       }
     }
