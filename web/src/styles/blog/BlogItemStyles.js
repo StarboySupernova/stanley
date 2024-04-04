@@ -35,9 +35,7 @@ export const BlogItemStyles = styled.div`
       color: var(--white);
       &:hover {
         text-decoration: underline;
-        background: linear-gradient(91.4deg, #a9a904 0%, #a9a904 100%);
-        box-shadow: 0px 20px 40px rgba(147, 231, 221, 0.3);
-        border-radius: 30px;
+        border-radius: 20px;
       }
       padding: 4px;
       background: linear-gradient(
