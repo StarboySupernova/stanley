@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CategoryItemStyles = styled.div`
-  background: #1f1f47;
+  background: linear-gradient(135deg, #000000, #756213);
   padding: 2rem;
   border-radius: 12px;
   .title {
