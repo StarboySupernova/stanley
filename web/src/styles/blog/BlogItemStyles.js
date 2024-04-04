@@ -5,7 +5,7 @@ export const BlogItemStyles = styled.div`
   border-radius: 12px;
   padding: 10px;
   background: rgba(7, 19, 20, 0.3);
-  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
@@ -64,7 +64,7 @@ export const ContainerDiv = styled.div`
 `;
 
 export const BackgroundBlogDiv = styled.div`
-  background: linear-gradient(180deg, #034045 11.94%, #222d02 80.98%);
+  background: linear-gradient(180deg, #034045 11.94%, #012427 80.98%);
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 60px 0px 60px 60px;
