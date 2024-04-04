@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
     --grey: var(--gray);
     --white: white;
     --black: black;
-    --gradient: linear-gradient(135deg, #04619F, #000000);
+    --gradient: linear-gradient(135deg, #130f40, #F2BAE8);
   }
   html{
     font-size: 10px;
