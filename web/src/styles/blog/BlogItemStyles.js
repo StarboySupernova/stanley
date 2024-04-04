@@ -4,7 +4,7 @@ export const BlogItemStyles = styled.div`
   display: inline-block;
   border-radius: 12px;
   padding: 10px;
-  background: rgba(7, 19, 20, 0.3);
+  background: rgba(7, 19, 20, 0.4);
   border: 0.5px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(20px);
