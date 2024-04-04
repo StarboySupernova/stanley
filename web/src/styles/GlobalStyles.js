@@ -32,8 +32,8 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Inter';
     /* background: var(--gradient); */
     background-image: url(${backgroundImage});
-    background-size: auto;
-    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     color: var(--white);
   }
   a{
