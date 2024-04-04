@@ -5,7 +5,7 @@ export const FooterStyles = styled.footer`
   padding: 5rem 0 2rem 0;
   text-align: center;
   background-image: url(${backgroundImage});
-  background-size: contain;
+  background-size: cover;
   .footer__text {
     margin: 0 auto;
     margin-top: 1rem;
