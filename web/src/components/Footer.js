@@ -19,8 +19,6 @@ function Footer() {
           a commitment to innovation, we curate events that ignite joy, foster
           connections, and leave a lasting impression. Join us in celebrating
           life's special occasions with style, flair, and a touch of magic.
-          Let's transform your vision into reality and create memories that will
-          be cherished for a lifetime.
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
@@ -40,6 +38,10 @@ function Footer() {
           52C9+7MC, Bishop Gaul Ave S, Harare, Zimbabwe
         </ParagraphText>
         <ParagraphText className="copyright">
+          © Gala Groove Entertainment Group (PTY) LTD |{' '}
+          {new Date().getFullYear()}| All rights reserved
+        </ParagraphText>
+        <ParagraphText className="transparent">
           © Gala Groove Entertainment Group (PTY) LTD |{' '}
           {new Date().getFullYear()}| All rights reserved
         </ParagraphText>

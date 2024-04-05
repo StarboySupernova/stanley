@@ -45,4 +45,7 @@ export const FooterStyles = styled.footer`
     color: var(--gray);
     font-size: 1.2rem;
   }
+  .transparent {
+    color: transparent;
+  }
 `;
