@@ -25,7 +25,7 @@ function HeroSection() {
           <div className="right">
             <StaticImage
               className="hero__image"
-              src="../../images/VR.jpg"
+              src="../../images/jakob-owens-qoFQxxuk3QY-unsplash.jpg"
               alt="Gala Groove hero image"
               placeholder="blurred"
               objectPosition="50% 30%"
