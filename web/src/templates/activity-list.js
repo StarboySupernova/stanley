@@ -36,7 +36,7 @@ function Activity({ data, pageContext }) {
         <div className="container">
           <PageHeader
             title="All Activities"
-            description="Elevate your online journey with us. Connect, create, and thrive in a digital world. Your success, our priority."
+            description="Select your immersive experience from our offers today"
           />
           <ActivityGrid activities={activities} />
           {numberOfPages > 1 && (

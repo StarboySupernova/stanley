@@ -87,7 +87,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // single Author pages
   authors.forEach((author) => {
     createPage({
-      path: `/team/${author.slug.current}`,
+      path: `/groovers/${author.slug.current}`,
       component: singleAuthorTemplate,
       context: { id: author.id },
     });
@@ -136,7 +136,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const totalAuthorListPages = Math.ceil(authors.length / postsPerPage);
   Array.from({ length: totalAuthorListPages }).forEach((_, index) => {
     createPage({
-      path: index === 0 ? `/team` : `/team/${index + 1}`,
+      path: index === 0 ? `/groovers` : `/groovers/${index + 1}`,
       component: authorListTemplate,
       context: {
         limit: postsPerPage,
