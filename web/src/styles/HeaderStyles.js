@@ -28,7 +28,7 @@ export default styled.header`
           }
         }
         a {
-          color: var(--primary);
+          color: var(--black-1);
           display: inline-block;
           text-decoration: none;
           font-size: 1.6rem;
