@@ -13,39 +13,39 @@ import { FcAndroidOs } from 'react-icons/fc';
 export const socialLinks = [
   {
     name: 'telephone',
-    url: 'tel:+27761501409',
+    url: 'tel:+263785120518',
     icon: <FaPhoneSquareAlt />,
   },
   {
     name: 'mail',
-    url: 'mailto:steppingstones@gmail.com',
+    url: 'mailto:tendaimusah257@gmail.com',
     icon: <IoIosMailUnread />,
   },
   {
     name: 'whatsapp',
-    url: `https://wa.me/27834659008?text=${encodeURIComponent(
+    url: `https://wa.me/263785120518?text=${encodeURIComponent(
       'I would like to chat to an available Gala Groove Representative'
     )}`,
     icon: <FaWhatsappSquare />,
   },
   {
     name: 'facebook',
-    url: 'https://www.facebook.com/SSGPCTRAINING/',
+    url: 'https://www.facebook.com/GalaGroove/',
     icon: <FaFacebook />,
   },
   {
     name: 'twitter',
-    url: 'https://twitter.com/SStonesgroup',
+    url: 'https://twitter.com/galagroove',
     icon: <FaTwitter />,
   },
   {
     name: 'Apple',
-    url: 'https://www.apple.com/Stepping_Stones_Group_iOS_App',
+    url: 'https://www.apple.com/GalaGroove_iOS_App',
     icon: <DiApple />,
   },
   {
     name: 'Android',
-    url: 'https://www.play.google.com/Stepping_Stones_Group_Android_App',
+    url: 'https://www.play.google.com/GalaGroove_Android_App',
     icon: <FcAndroidOs />,
   },
 ];
