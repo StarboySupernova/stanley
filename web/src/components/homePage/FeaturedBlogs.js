@@ -34,14 +34,12 @@ function FeaturedBlogs() {
       }
     }
   `);
-  const spotlightBlogs = data.allSanitySpotlight.nodes[0].blogs;
   return (
     <FeaturedBlogsStyles>
       <SectionTitle>Upcoming Events</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
         Latest from us
       </ParagraphText>
-      <BlogGrid blogs={spotlightBlogs} />
     </FeaturedBlogsStyles>
   );
 }
