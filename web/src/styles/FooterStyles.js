@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backgroundImage from '../images/Wave.svg';
+import backgroundImage from '../images/Background (2).svg';
 
 export const FooterStyles = styled.footer`
   padding: 5rem 0 2rem 0;
