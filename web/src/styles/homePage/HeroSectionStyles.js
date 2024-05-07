@@ -34,6 +34,7 @@ export const HeroSectionStyles = styled.div`
       }
       .hero__text {
         max-width: 350px;
+        color: var(--white-1);
       }
       .hero__button {
         margin-top: 1.5rem;
