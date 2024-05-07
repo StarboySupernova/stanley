@@ -32,13 +32,16 @@ function AuthorList({ data, pageContext }) {
 
   return (
     <PageSpace top={80} bottom={100}>
-      <SEO title="About Us & Our Team" />
+      <SEO title="Tree Services" />
       <div className="container">
-        <PageHeader title="Our Team" description="Meet The Groovers" />
+        <PageHeader
+          title="Tree Services"
+          description=" From expert pruning and trimming to tree removal and stump grinding, our certified arborists are dedicated to providing professional and reliable care for your trees. We understand the importance of proper tree maintenance in promoting growth, ensuring safety, and enhancing the overall aesthetics of your outdoor space. Whether you need routine maintenance to keep your trees healthy or emergency services to address storm damage, you can trust our experienced team to deliver exceptional results with precision and care"
+        />
         <AuthorGrid authors={authors} />
         {numberOfPages > 1 && (
           <Pagination
-            baseURL="/team"
+            baseURL="/tree-services"
             currentPage={currentPage}
             numberOfPages={numberOfPages}
           />
@@ -49,18 +52,3 @@ function AuthorList({ data, pageContext }) {
 }
 
 export default AuthorList;
-
-/* Address
-
-1954 intakaza & Edmond Shezi str Mayibuye
-Commercia
-Midrand
-1685
-South Africa
-076 150 1409
-
-write google review - https://search.google.com/local/writereview?placeid=ChIJ67iW6-ptlR4RtTWSXggOE0A
-read google reviews - https://search.google.com/local/reviews?placeid=ChIJ67iW6-ptlR4RtTWSXggOE0A
-
-
-*/

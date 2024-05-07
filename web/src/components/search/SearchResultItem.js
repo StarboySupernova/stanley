@@ -45,7 +45,7 @@ function AuthorSearchResultItem({ author }) {
   const { closeSearchModal } = useContext(SearchModalContext);
   return (
     <SearchResultItemStyles
-      to={`/team/${author.slug.current}`}
+      to={`/tree-services/${author.slug.current}`}
       onClick={() => closeSearchModal()}
     >
       <GatsbyImage
