@@ -13,10 +13,16 @@ function HeroSection() {
           <div className="left">
             <h1 className="hero__heading">Stanley Outdoor & Landscaping</h1>
             <ParagraphText className="hero__text">
-              Experience the magic of youthful ingenuity. From intimate
-              gatherings to grand celebrations, we bring your vision to life
-              with creativity, passion and expertise. Let's make memories
-              together. Welcome to Stanley Outdoor & Landscaping
+              Welcome to Stanley Outdoor & Landscaping, where your outdoor
+              dreams come to life. With a passion for crafting breathtaking
+              landscapes, we specialize in transforming outdoor spaces into
+              havens of natural beauty and serenity. Whether you're envisioning
+              a lush garden retreat, a functional and stylish outdoor living
+              area, or a meticulously manicured lawn, our team of dedicated
+              professionals is here to exceed your expectations. From concept to
+              completion, we combine expertise with creativity to design and
+              build outdoor spaces that inspire and delight. Explore our
+              portfolio and let us turn your outdoor vision into a reality.
             </ParagraphText>
             <Button to="/spotlight" tag={Link} className="hero__button">
               Contact Us
