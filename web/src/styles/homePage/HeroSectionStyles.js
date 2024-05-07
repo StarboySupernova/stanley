@@ -38,6 +38,7 @@ export const HeroSectionStyles = styled.div`
       }
       .hero__button {
         margin-top: 1.5rem;
+        color: var(--black-1);
       }
     }
     .right {
