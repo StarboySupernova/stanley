@@ -36,9 +36,9 @@ function FeaturedBlogs() {
   `);
   return (
     <FeaturedBlogsStyles>
-      <SectionTitle>Upcoming Events</SectionTitle>
+      <SectionTitle>Our Work</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        Latest from us
+        Explore Our Intuitive Artistry in Nature
       </ParagraphText>
     </FeaturedBlogsStyles>
   );

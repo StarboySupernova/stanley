@@ -12,12 +12,12 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          "Thank you for visiting Stanley Outdoor & Landscaping. Let's connect
+          Thank you for visiting Stanley Outdoor & Landscaping. Let's connect
           and bring your outdoor vision to life. Contact us today to schedule a
           consultation or inquire about our services. Follow us on social media
           for inspiration and updates. We look forward to collaborating with you
           to create the outdoor oasis you've always dreamed of. Your journey to
-          a stunning landscape begins here."
+          a stunning landscape begins here.
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
