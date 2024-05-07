@@ -12,13 +12,14 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          At Gala Groove, we believe in crafting unforgettable experiences that
-          bring people together. From lively gatherings under the stars to
-          intimate soirées filled with laughter, our passion for creating
-          memorable moments knows no bounds. With a dedication to excellence and
-          a commitment to innovation, we curate events that ignite joy, foster
-          connections, and leave a lasting impression. Join us in celebrating
-          life's special occasions with style, flair, and a touch of magic.
+          At Stanley Outdoor & Landscaping, we believe in crafting unforgettable
+          experiences that bring people together. From lively gatherings under
+          the stars to intimate soirées filled with laughter, our passion for
+          creating memorable moments knows no bounds. With a dedication to
+          excellence and a commitment to innovation, we curate events that
+          ignite joy, foster connections, and leave a lasting impression. Join
+          us in celebrating life's special occasions with style, flair, and a
+          touch of magic.
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
@@ -38,11 +39,11 @@ function Footer() {
           52C9+7MC, Bishop Gaul Ave S, Harare, Zimbabwe
         </ParagraphText>
         <ParagraphText className="copyright">
-          © Gala Groove Entertainment Group (PTY) LTD |{' '}
+          © Stanley Outdoor & Landscaping Entertainment Group (PTY) LTD |{' '}
           {new Date().getFullYear()}| All rights reserved
         </ParagraphText>
         <ParagraphText className="transparent">
-          © Gala Groove Entertainment Group (PTY) LTD |{' '}
+          © Stanley Outdoor & Landscaping Entertainment Group (PTY) LTD |{' '}
           {new Date().getFullYear()}| All rights reserved
         </ParagraphText>
       </div>

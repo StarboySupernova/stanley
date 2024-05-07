@@ -29,7 +29,7 @@ function SingleActivity({ data }) {
     <PageSpace top={80} bottom={100}>
       <SingleCategoryStyles>
         <div className="container">
-          <SEO title={`Gala Groove-${activity.title}`} />
+          <SEO title={`Stanley Outdoor & Landscaping-${activity.title}`} />
           <PageHeader title={activity.title} className="pageHeader">
             <MyPortableText value={activity._rawDescription} />
             <GatsbyImage

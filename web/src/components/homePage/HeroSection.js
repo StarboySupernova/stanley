@@ -11,12 +11,12 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">Gala Groove</h1>
+            <h1 className="hero__heading">Stanley Outdoor & Landscaping</h1>
             <ParagraphText className="hero__text">
               Experience the magic of youthful ingenuity. From intimate
               gatherings to grand celebrations, we bring your vision to life
               with creativity, passion and expertise. Let's make memories
-              together. Welcome to Gala Groove
+              together. Welcome to Stanley Outdoor & Landscaping
             </ParagraphText>
             <Button to="/spotlight" tag={Link} className="hero__button">
               Explore
@@ -26,7 +26,7 @@ function HeroSection() {
             <StaticImage
               className="hero__image"
               src="../../images/shutterstock_193618733.jpg"
-              alt="Gala Groove hero image"
+              alt="Stanley Outdoor & Landscaping hero image"
               placeholder="blurred"
               objectPosition="50% 30%"
             />

@@ -3,7 +3,7 @@ import { MdStar } from 'react-icons/md';
 
 function SidebarList() {
   return S.list()
-    .title('Gala Groove')
+    .title('Stanley Outdoor & Landscaping')
     .items([
       S.listItem()
         .title('Spotlight')

@@ -7,7 +7,7 @@ function SearchField({ value, setValue, onFocus }) {
     <SearchFieldStyles>
       <input
         type="text"
-        placeholder="Search Gala Groove"
+        placeholder="Search Stanley Outdoor & Landscaping"
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onFocus={onFocus && onFocus}
