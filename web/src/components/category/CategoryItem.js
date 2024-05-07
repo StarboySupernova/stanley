@@ -12,7 +12,10 @@ function CategoryItem({ title, description, slug }) {
       <div className="text">
         <MyPortableText value={description} />
       </div>
-      <Button to={`/categories/${slug.current}`} variant={buttonTypes.outline}>
+      <Button
+        to={`/garden-landscapes/${slug.current}`}
+        variant={buttonTypes.outline}
+      >
         Explore Category
       </Button>
     </CategoryItemStyles>

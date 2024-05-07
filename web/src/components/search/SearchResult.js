@@ -57,7 +57,7 @@ function SearchResult({
       )}
       {categoriesResult.length > 0 && (
         <>
-          <ParagraphText>Categories</ParagraphText>
+          <ParagraphText>Garden Landscapes</ParagraphText>
           {categoriesResult.map((result) => (
             <CategorySearchResultItem key={result.id} category={result} />
           ))}

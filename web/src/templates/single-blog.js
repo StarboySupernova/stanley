@@ -64,7 +64,7 @@ function SingleBlog({ data }) {
               <span>
                 {blog.categories.map((item, index) => (
                   <span key={item.slug.current}>
-                    <Link to={`/categories/${item.slug.current}`}>
+                    <Link to={`/garden-landscapes/${item.slug.current}`}>
                       {item.title}
                     </Link>
                     {index < blog.categories.length - 1 ? ', ' : ''}

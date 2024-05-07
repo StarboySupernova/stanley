@@ -78,7 +78,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // creating single category pages
   categories.forEach((category) => {
     createPage({
-      path: `/categories/${category.slug.current}`,
+      path: `/garden-landscapes/${category.slug.current}`,
       component: singleCategoryTemplate,
       context: { id: category.id },
     });
@@ -121,7 +121,8 @@ exports.createPages = async ({ graphql, actions }) => {
   const totalCategoryListPages = Math.ceil(categories.length / postsPerPage);
   Array.from({ length: totalCategoryListPages }).forEach((_, index) => {
     createPage({
-      path: index === 0 ? `/categories` : `/categories/${index + 1}`,
+      path:
+        index === 0 ? `/garden-landscapes` : `/garden-landscapes/${index + 1}`,
       component: categoryListTemplate,
       context: {
         limit: postsPerPage,

@@ -31,19 +31,19 @@ function Categories({ data, pageContext }) {
 
   return (
     <>
-      <SEO title="Categories" />
+      <SEO title="Garden Landscapes" />
       <PageSpace top={80} bottom={100}>
         <div className="container">
           <PageHeader
-            title="All Categories"
-            description="Tailored activity, designed & implemented with the client in mind"
+            title="Garden Landscapes"
+            description="Creative garden landscapes are more than just a patch of greenery – they're living works of art that evoke emotions and captivate the senses. At Stanley Outdoor & Landscaping, we believe in pushing the boundaries of traditional garden design to create imaginative and inspiring outdoor spaces."
           />
           <CategoryGrid categories={categories} />
           {numberOfPages > 1 && (
             <Pagination
               currentPage={currentPage}
               numberOfPages={numberOfPages}
-              baseURL="/categories"
+              baseURL="/garden-landscapes"
             />
           )}
         </div>
