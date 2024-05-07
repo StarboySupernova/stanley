@@ -19,7 +19,7 @@ function HeroSection() {
               together. Welcome to Stanley Outdoor & Landscaping
             </ParagraphText>
             <Button to="/spotlight" tag={Link} className="hero__button">
-              Explore
+              Contact Us
             </Button>
           </div>
           <div className="right">

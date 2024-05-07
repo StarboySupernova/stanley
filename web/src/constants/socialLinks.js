@@ -18,7 +18,7 @@ export const socialLinks = [
   },
   {
     name: 'mail',
-    url: 'mailto:tendaimusah257@gmail.com',
+    url: 'mailto:stanleylandscapingandoutdoor@gmail.com',
     icon: <IoIosMailUnread />,
   },
   {
@@ -30,22 +30,22 @@ export const socialLinks = [
   },
   {
     name: 'facebook',
-    url: 'https://www.facebook.com/GalaGroove/',
+    url: 'https://www.facebook.com/StanleyOutdoorandLandscaping/',
     icon: <FaFacebook />,
   },
   {
     name: 'twitter',
-    url: 'https://twitter.com/galagroove',
+    url: 'https://twitter.com/stanleyoutdoorandlandscaping',
     icon: <FaTwitter />,
   },
   {
     name: 'Apple',
-    url: 'https://www.apple.com/GalaGroove_iOS_App',
+    url: '',
     icon: <DiApple />,
   },
   {
     name: 'Android',
-    url: 'https://www.play.google.com/GalaGroove_Android_App',
+    url: '',
     icon: <FcAndroidOs />,
   },
 ];

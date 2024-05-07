@@ -8,15 +8,15 @@ export const menu = [
     path: '/spotlight',
   },
   {
-    title: 'Activities',
-    path: '/activities',
+    title: 'Garden Landscapes',
+    path: '/garden-landscapes',
   },
   {
-    title: 'Event Selections',
-    path: '/categories',
+    title: 'Lawn Care',
+    path: '/lawn-care',
   },
   {
-    title: 'The Groovers',
-    path: '/groovers',
+    title: 'Tree Services',
+    path: '/tree-services',
   },
 ];
