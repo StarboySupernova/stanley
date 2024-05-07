@@ -12,14 +12,12 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          At Stanley Outdoor & Landscaping, we believe in crafting unforgettable
-          experiences that bring people together. From lively gatherings under
-          the stars to intimate soirées filled with laughter, our passion for
-          creating memorable moments knows no bounds. With a dedication to
-          excellence and a commitment to innovation, we curate events that
-          ignite joy, foster connections, and leave a lasting impression. Join
-          us in celebrating life's special occasions with style, flair, and a
-          touch of magic.
+          "Thank you for visiting Stanley Outdoor & Landscaping. Let's connect
+          and bring your outdoor vision to life. Contact us today to schedule a
+          consultation or inquire about our services. Follow us on social media
+          for inspiration and updates. We look forward to collaborating with you
+          to create the outdoor oasis you've always dreamed of. Your journey to
+          a stunning landscape begins here."
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
@@ -36,7 +34,8 @@ function Footer() {
           ))}
         </ul>
         <ParagraphText className="copyright">
-          52C9+7MC, Bishop Gaul Ave S, Harare, Zimbabwe
+          27 Hans Merensky St, Birchleigh North, Kempton Park, 1618, South
+          Africa
         </ParagraphText>
         <ParagraphText className="copyright">
           © Stanley Outdoor & Landscaping Entertainment Group (PTY) LTD |{' '}
