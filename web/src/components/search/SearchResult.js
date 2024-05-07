@@ -73,7 +73,7 @@ function SearchResult({
       )}
       {activitiesResult.length > 0 && (
         <>
-          <ParagraphText>Activities</ParagraphText>
+          <ParagraphText>Lawn-Care</ParagraphText>
           {activitiesResult.map((result) => (
             <ActivitySearchResultItem key={result.id} activity={result} />
           ))}

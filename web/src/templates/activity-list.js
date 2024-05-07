@@ -31,19 +31,19 @@ function Activity({ data, pageContext }) {
 
   return (
     <>
-      <SEO title="Activities" />
+      <SEO title="Lawn Care" />
       <PageSpace top={80} bottom={100}>
         <div className="container">
           <PageHeader
-            title="All Activities"
-            description="Select your immersive experience from our offers today"
+            title="Lawn Care"
+            description="Lawn care is the foundation of a beautiful outdoor space, and at Stanley Outdoor & Landscaping, we take pride in nurturing healthy and vibrant lawns that enhance the beauty of your property. Our comprehensive lawn care services are tailored to meet the unique needs of your landscape, from regular mowing and edging to fertilization and weed control. We understand that a lush, green lawn is not only visually appealing but also contributes to a healthier environment and increases the value of your home. With our expertise and attention to detail, you can trust us to keep your lawn looking its best year-round, so you can spend more time enjoying your outdoor oasis and less time worrying about maintenance."
           />
           <ActivityGrid activities={activities} />
           {numberOfPages > 1 && (
             <Pagination
               currentPage={currentPage}
               numberOfPages={numberOfPages}
-              baseURL="/activities"
+              baseURL="/lawn-care"
             />
           )}
         </div>

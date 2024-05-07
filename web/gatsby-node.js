@@ -96,7 +96,7 @@ exports.createPages = async ({ graphql, actions }) => {
   //  creating single activity pages
   activities.forEach((activity) => {
     createPage({
-      path: `/activities/${activity.slug.current}`,
+      path: `/lawn-care/${activity.slug.current}`,
       component: singleActivityTemplate,
       context: { id: activity.id },
     });
@@ -152,7 +152,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const totalServiceListPages = Math.ceil(activities.length / 7);
   Array.from({ length: totalServiceListPages }).forEach((_, index) => {
     createPage({
-      path: index === 0 ? `/activities` : `/activities/${index + 1}`,
+      path: index === 0 ? `/lawn-care` : `/lawn-care/${index + 1}`,
       component: serviceActivityTemplate,
       context: {
         limit: 7,

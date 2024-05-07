@@ -62,7 +62,7 @@ function ActivitySearchResultItem({ activity }) {
   const { closeSearchModal } = useContext(SearchModalContext);
   return (
     <SearchResultItemStyles
-      to={`/activities/${activity.slug.current}`}
+      to={`/lawn-care/${activity.slug.current}`}
       onClick={() => closeSearchModal()}
     >
       <Title className="title">{activity.title}</Title>
