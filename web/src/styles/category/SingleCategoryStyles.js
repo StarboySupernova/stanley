@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const SingleCategoryStyles = styled.div`
+  .container {
+    padding-left: 2rem;
+  }
   .pageHeader {
     position: relative;
     padding: 2rem 0;
