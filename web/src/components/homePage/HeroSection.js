@@ -24,7 +24,11 @@ function HeroSection() {
               build outdoor spaces that inspire and delight. Explore our
               portfolio and let us turn your outdoor vision into a reality.
             </ParagraphText>
-            <Button to="/spotlight" tag={Link} className="hero__button">
+            <Button
+              to="`https://wa.me/263785120518?text=I%20would%20like%20to%20chat%20to%20an%20available%20Stanley%20Outdoor%20Landscaping%20representative"
+              tag={Link}
+              className="hero__button"
+            >
               Contact Us
             </Button>
           </div>
