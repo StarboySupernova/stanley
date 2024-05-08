@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SingleCategoryStyles = styled.div`
-  .container {
+  .textcontainer {
     padding-left: 2rem;
   }
   .pageHeader {

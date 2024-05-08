@@ -31,7 +31,10 @@ function SingleActivity({ data }) {
         <div className="container">
           <SEO title={`Stanley Outdoor & Landscaping-${activity.title}`} />
           <PageHeader title={activity.title} className="pageHeader">
-            <MyNewPortableText value={activity._rawDescription} />
+            <MyNewPortableText
+              className="textcontainer"
+              value={activity._rawDescription}
+            />
             <GatsbyImage
               image={activity.coverImage.asset.gatsbyImageData}
               alt={activity.coverImage.alt}
