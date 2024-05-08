@@ -9,7 +9,7 @@ export const CategoryItemStyles = styled.div`
   }
   .text {
     margin-bottom: 2rem;
-    color: #ffffff;
+    color: #f0c2a6;
   }
   .white {
     color: #ffffff;
