@@ -9,6 +9,6 @@ export const ParagraphTextStyles = styled.p`
     font-size: 1.4rem;
   }
   .white {
-    color: #f0c2a6;
+    color: #472f32;
   }
 `;
