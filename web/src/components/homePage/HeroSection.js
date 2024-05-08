@@ -25,7 +25,7 @@ function HeroSection() {
               portfolio and let us turn your outdoor vision into a reality.
             </ParagraphText>
             <Button
-              to="`https://wa.me/263785120518?text=I%20would%20like%20to%20chat%20to%20an%20available%20Stanley%20Outdoor%20Landscaping%20representative"
+              to="`https://wa.me/27678744050?text=I%20would%20like%20to%20chat%20to%20an%20available%20Stanley%20Outdoor%20Landscaping%20representative"
               tag={Link}
               className="hero__button"
             >

@@ -23,7 +23,7 @@ export const socialLinks = [
   },
   {
     name: 'whatsapp',
-    url: `https://wa.me/263785120518?text=${encodeURIComponent(
+    url: `https://wa.me/27678744050?text=${encodeURIComponent(
       'I would like to speak to an available Stanley Outdoor & Landscaping Representative'
     )}`,
     icon: <FaWhatsappSquare />,
