@@ -23,10 +23,12 @@ function TopCategories() {
       }
     }
   `);
+  const activities = data.allSanitySpotlight.nodes[0].activity;
   return (
     <TopCategoriesStyles>
-      <SectionTitle>Top Activities</SectionTitle>
+      <SectionTitle>Top lawn-care</SectionTitle>
       <ParagraphText>Create your ambience - Events done your way</ParagraphText>
+      <ActivityGrid activities={activities} />
     </TopCategoriesStyles>
   );
 }

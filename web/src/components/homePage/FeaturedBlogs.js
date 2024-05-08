@@ -34,12 +34,14 @@ function FeaturedBlogs() {
       }
     }
   `);
+  const spotlightBlogs = data.allSanitySpotlight.nodes[0].blogs;
   return (
     <FeaturedBlogsStyles>
       <SectionTitle>Our Work</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
         Explore Our Intuitive Artistry in Nature
       </ParagraphText>
+      <BlogGrid blogs={spotlightBlogs} />
     </FeaturedBlogsStyles>
   );
 }

@@ -38,11 +38,11 @@ function Footer() {
           Africa
         </ParagraphText>
         <ParagraphText className="copyright">
-          © Stanley Outdoor & Landscaping Entertainment Group (PTY) LTD |{' '}
+          © Stanley Outdoor & Landscaping Group (PTY) LTD |{' '}
           {new Date().getFullYear()}| All rights reserved
         </ParagraphText>
         <ParagraphText className="transparent">
-          © Stanley Outdoor & Landscaping Entertainment Group (PTY) LTD |{' '}
+          © Stanley Outdoor & Landscaping Group (PTY) LTD |{' '}
           {new Date().getFullYear()}| All rights reserved
         </ParagraphText>
       </div>
