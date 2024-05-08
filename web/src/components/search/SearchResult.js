@@ -6,7 +6,7 @@ import {
   CategorySearchResultItem,
   ActivitySearchResultItem,
 } from './SearchResultItem';
-import ParagraphText from '../typography/ParagraphText';
+import NewParagraphText from '../typography/NewParagraphText';
 
 function SearchResult({
   searchQuery,
@@ -42,14 +42,14 @@ function SearchResult({
     authorsResult.length === 0 &&
     activitiesResult.length === 0
   ) {
-    return <ParagraphText>No Result Found.</ParagraphText>;
+    return <NewParagraphText>No Result Found.</NewParagraphText>;
   }
 
   return (
     <>
       {blogsResult.length > 0 && (
         <>
-          <ParagraphText>Spotlight</ParagraphText>
+          <NewParagraphText>Spotlight</NewParagraphText>
           {blogsResult.map((result) => (
             <BlogSearchResultItem key={result.id} blog={result} />
           ))}
@@ -57,7 +57,7 @@ function SearchResult({
       )}
       {categoriesResult.length > 0 && (
         <>
-          <ParagraphText>Garden Landscapes</ParagraphText>
+          <NewParagraphText>Garden Landscapes</NewParagraphText>
           {categoriesResult.map((result) => (
             <CategorySearchResultItem key={result.id} category={result} />
           ))}
@@ -65,7 +65,7 @@ function SearchResult({
       )}
       {authorsResult.length > 0 && (
         <>
-          <ParagraphText>Authors</ParagraphText>
+          <NewParagraphText>About Our Work</NewParagraphText>
           {authorsResult.map((result) => (
             <AuthorSearchResultItem key={result.id} author={result} />
           ))}
@@ -73,7 +73,7 @@ function SearchResult({
       )}
       {activitiesResult.length > 0 && (
         <>
-          <ParagraphText>Lawn-Care</ParagraphText>
+          <NewParagraphText>Lawn-Care</NewParagraphText>
           {activitiesResult.map((result) => (
             <ActivitySearchResultItem key={result.id} activity={result} />
           ))}
