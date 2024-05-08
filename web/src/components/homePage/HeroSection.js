@@ -29,7 +29,7 @@ function HeroSection() {
               tag={Link}
               className="hero__button"
             >
-              Contact Us
+              Contact Us 📲
             </Button>
           </div>
           <div className="right">
