@@ -8,4 +8,7 @@ export const ParagraphTextStyles = styled.p`
   @media only screen and (max-width: 768px) {
     font-size: 1.4rem;
   }
+  .white {
+    color: #ffffff;
+  }
 `;

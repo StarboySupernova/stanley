@@ -9,7 +9,7 @@ function ActivityItem({ title, description, slug }) {
   return (
     <CategoryItemStyles>
       <Title className="title">{title}</Title>
-      <div className="text white">
+      <div className="text">
         <MyPortableText value={description} />
       </div>
       <Button to={`/lawn-care/${slug.current}`} variant={buttonTypes.outline}>
