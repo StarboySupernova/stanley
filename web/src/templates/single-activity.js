@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
-import MyPortableText from '../components/MyPortableText';
+import MyNewPortableText from '../components/MyNewPortableText';
 import PageHeader from '../components/PageHeader';
 import PageSpace from '../components/PageSpace';
 import SEO from '../components/seo';
@@ -31,7 +31,7 @@ function SingleActivity({ data }) {
         <div className="container">
           <SEO title={`Stanley Outdoor & Landscaping-${activity.title}`} />
           <PageHeader title={activity.title} className="pageHeader">
-            <MyPortableText value={activity._rawDescription} />
+            <MyNewPortableText value={activity._rawDescription} />
             <GatsbyImage
               image={activity.coverImage.asset.gatsbyImageData}
               alt={activity.coverImage.alt}
