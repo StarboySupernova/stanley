@@ -4,10 +4,8 @@ struct Home: View {
     @State private var scrolled=0
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            VStack
-            {
-                HStack
-                {
+            VStack{
+                HStack{
                     Button(action: {}) {
                     Image("menu")
                     .renderingMode(.template)
@@ -37,8 +35,6 @@ struct Home: View {
                         .renderingMode(.template)
                         .foregroundColor(.white)
                         .rotationEffect(.init(degrees: 90))
-
-
                     }
                 }
                 .padding(.horizontal)
@@ -94,11 +90,11 @@ struct Home: View {
                                     HStack
                                     {
                                         Text(story.title)
-                                    .font(.title)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(.white)
+                                            .font(.title)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.white)
 
-                                        Spacer()
+                                            Spacer()
                                     }
 
                                     Button(action: {}) {
@@ -178,6 +174,7 @@ struct Home: View {
         let screen = UIScreen.main.bounds.width - 50
 
         //showing first 3 cards. all the others will be hidden
+        //second & third will be moved x axis with 30 values
         let width = screen - (2 * 30)
 
         return width
