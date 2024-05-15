@@ -187,3 +187,5 @@ struct Story: Identifiable {
     var offset: CGFloat
     var title: String
 }
+
+//snapdragon
